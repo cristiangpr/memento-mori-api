@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "wills",
+  "info": {
+    "singularName": "will",
+    "pluralName": "wills",
+    "displayName": "Will"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "initial": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "birthDate": {
+      "type": "date"
+    }
+  }
+}
