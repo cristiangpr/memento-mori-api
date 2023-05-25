@@ -13,7 +13,8 @@
     "@strapi/plugin-i18n": "4.10.5",
     "@strapi/plugin-users-permissions": "4.10.5",
     "@strapi/strapi": "4.10.5",
-    "pg": "8.8.0",
+    "pg": "^8.8.0",
+    "pg-connection-string": "^2.6.0",
     "strapi-plugin-vercel-deploy": "^1.4.0"
   },
   "author": {
@@ -23,7 +24,7 @@
     "uuid": "900eeb4d-1de7-4d30-8066-90de6cf8c2af"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": "18.16.0",
     "npm": "8.11.0"
   },
   "license": "MIT"
