@@ -22,7 +22,8 @@
       "type": "string"
     },
     "address": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "birthDate": {
       "type": "string"
