@@ -12,20 +12,37 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "firstName": {
+    "isActive": {
+      "type": "boolean"
+    },
+    "nativeToken": {
+      "type": "json"
+    },
+    "tokens": {
+      "type": "json"
+    },
+    "nfts": {
+      "type": "json"
+    },
+    "erc1155s": {
+      "type": "json"
+    },
+    "executors": {
+      "type": "json"
+    },
+    "chainSelector": {
       "type": "string"
     },
-    "lastName": {
+    "safe": {
       "type": "string"
     },
-    "initial": {
+    "xChainAddress": {
       "type": "string"
     },
-    "address": {
-      "type": "string",
-      "unique": true
+    "requestTime": {
+      "type": "string"
     },
-    "birthDate": {
+    "cooldown": {
       "type": "string"
     }
   }
