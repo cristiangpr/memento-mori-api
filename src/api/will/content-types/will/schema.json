@@ -15,7 +15,7 @@
     "isActive": {
       "type": "boolean"
     },
-    "nativeToken": {
+    "native": {
       "type": "json"
     },
     "tokens": {
@@ -34,7 +34,8 @@
       "type": "string"
     },
     "safe": {
-      "type": "string"
+      "type": "string",
+      "unique": true
     },
     "xChainAddress": {
       "type": "string"
@@ -43,6 +44,12 @@
       "type": "string"
     },
     "cooldown": {
+      "type": "string"
+    },
+    "executed": {
+      "type": "boolean"
+    },
+    "baseAddress": {
       "type": "string"
     }
   }
